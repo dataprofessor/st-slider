@@ -7,7 +7,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st-slider/)
 
 ## Code
-Here's how to use st.write:
+Here's how to use [`st.slider`](https://docs.streamlit.io/library/api-reference/widgets/st.slider):
 ```python
 import streamlit as st
 from datetime import time, datetime
@@ -133,5 +133,5 @@ The default value for the datetime was set using the `value` option to be Januar
 
 
 ## Further reading
-You can also explore the following related widget:
+You can also explore the following related widget to [`st.slider`](https://docs.streamlit.io/library/api-reference/widgets/st.slider):
 - [`st.select_slider`](https://docs.streamlit.io/library/api-reference/widgets/st.select_slider)
