@@ -134,4 +134,4 @@ The default value for the datetime was set using the `value` option to be Januar
 
 ## Further reading
 You can also explore the following related widget:
-- [st.select_slider](https://docs.streamlit.io/library/api-reference/widgets/st.select_slider)
+- [`st.select_slider`](https://docs.streamlit.io/library/api-reference/widgets/st.select_slider)
