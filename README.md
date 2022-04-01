@@ -10,7 +10,7 @@
 Here's how to use st.write:
 ```python
 import streamlit as st
-from datetime import time
+from datetime import time, datetime
 
 # Example 1
 
@@ -53,6 +53,7 @@ st.write("Start time:", start_time)
 The very first thing to do when creating a Streamlit app is to start by importing the `streamlit` library as `st` like so:
 ```python
 import streamlit as st
+from datetime import time, datetime
 ```
 
 **Example 1**
