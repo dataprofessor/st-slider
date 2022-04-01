@@ -4,7 +4,7 @@
 
 ## Demo app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st-slider/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.slider/)
 
 ## Code
 Here's how to use [`st.slider`](https://docs.streamlit.io/library/api-reference/widgets/st.slider):
