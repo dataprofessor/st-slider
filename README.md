@@ -1,16 +1,22 @@
 # st.slider
 
-`st.slider` allows writing text and arguments to the Streamlit app.
+`st.slider` allows the display of a slider input widget.
+
+The following data types are supported: int, float, date, time, and datetime.
 
 ## Demo app
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.slider/)
 
+
 ## Code
-Here's how to use [`st.slider`](https://docs.streamlit.io/library/api-reference/widgets/st.slider):
+Here's how to use st.slider:
+
 ```python
 import streamlit as st
 from datetime import time, datetime
+
+st.header('st.slider')
 
 # Example 1
 
@@ -54,6 +60,11 @@ The very first thing to do when creating a Streamlit app is to start by importin
 ```python
 import streamlit as st
 from datetime import time, datetime
+```
+
+This is followed by creating a header text for the app:
+```python
+st.header('st.slider')
 ```
 
 **Example 1**
@@ -131,7 +142,6 @@ The first input argument displays the text just above the **datetime** slider wi
 
 The default value for the datetime was set using the `value` option to be January 1, 2020 at 9:30
 
-
 ## Further reading
-You can also explore the following related widget to [`st.slider`](https://docs.streamlit.io/library/api-reference/widgets/st.slider):
+You can also explore the following related widget:
 - [`st.select_slider`](https://docs.streamlit.io/library/api-reference/widgets/st.select_slider)
