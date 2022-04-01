@@ -4,6 +4,14 @@
 
 The following data types are supported: int, float, date, time, and datetime.
 
+## What we're building?
+
+A simple app that shows the various ways on how to accept user input by adjusting the slider widget.
+
+Flow of the app:
+1. User selects value by adjusting the slider widget
+2. App prints out the selected value
+
 ## Demo app
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.slider/)
